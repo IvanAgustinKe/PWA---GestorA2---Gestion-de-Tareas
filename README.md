@@ -7,14 +7,15 @@ Materia: Aplicaciones Progresivas
 - La aplicación web integrará la funcionalidad de la plataforma MOCKAPI.IO utilizada anteriormente para el proyecto del primer parcial.
 - Debemos tomar la siguiente estructura de datos JSON que se almacenará:
 
-{
-  "id": "1",
-  "fechacreacion": "2023-10-10 15:21:00",
-  "fechaconclusion": "",
-  "titulo": "Título de la tarea",
-  "descripcion": "Descripción más extensa de la tarea a realizar",
-  "estado": "pendiente"
-} 
+* {
+*"id": "1",
+*"fechacreacion": "2023-10-10 15:21:00",
+*"fechaconclusion": "",
+*"titulo": "Título de la tarea",
+*"descripcion": "Descripción más extensa de la tarea a realizar",
+*"estado": "pendiente"
+*}
+
 
 
 - **Librería de Speech Synthesis sugerida por el profesor** ✅
