@@ -16,9 +16,9 @@
 - **Uso de módulos JS (un solo archivo JS en el documento, lógica separada en otros archivos)** ✅
 - **Uno o más archivos HTML (a gusto de ustedes)**
 
-  Si quieren resolver todo en un HTML, pueden usar el tag `<dialog>` para las ventanas:
-  1. Configuración
-  2. Nueva tarea
-  3. Modificar tarea (esta parte es opcional) ✅
+- **Si quieren resolver todo en un HTML, pueden usar el tag `<dialog>` para las ventanas:**
+  * 1. Configuración
+  * 2. Nueva tarea
+  * 3. Modificar tarea (esta parte es opcional) ✅
 
 - **Configuración de Speech Synthesis guardada en LocalStorage (guardar y recuperar desde LocalStorage)** ✅
