@@ -1,0 +1,82 @@
+{
+    "short_name": "GestorA2",
+    "name": "GestorA2 - Gestion de Tareas",
+    "version": "1.0.0",
+    "start_url": "/index.html",
+    "background_color": "#ffffff",
+    "theme_color": "#4044ff",
+    "description": "GestorA2 es una aplicación progresiva de gestion de tareas.",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "id": "/",
+    "lang": "es",
+    "dir": "ltr",
+    "categories": ["productivity", "utilities"],
+    "icons": [
+        {
+            "src": "./images/clothes-64.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "./images/clothes-96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "./images/clothes-144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "./images/clothes-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "./images/clothes-256.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "./images/clothes-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "./images/screenshot390x790.png",
+            "sizes": "389x790",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "GestorA2 - Gestion de Tareas versión mobile"
+        },
+        {
+            "src": "./images/screenshot441x625.png",
+            "sizes": "441x625",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "GestorA2 - Gestion de Tareas versión mobile"
+        },
+        {
+            "src": "./images/screenshot1623x992.png",
+            "sizes": "1623x992",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "GestorA2 - Gestion de Tareas para computadoras de escritorio"
+        }
+    ],
+    "permissions": [
+        "camera",
+        "storage"
+    ],
+    "related_applications": [
+        {
+            "platform": "play",
+            "url": "https://play.google.com/store/apps/details?id=com.gestora2"
+        }
+    ],
+    "prefer_related_applications": false
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/dialog-polyfill@0.5.6/dialog-polyfill.min.css"
+    />
+    <link rel="manifest" href="/manifest.json" />
+  </head>
+  <body>
+    <header>
+      <button id="menu-toggle" aria-label="Abrir menú">☰</button>
+      <h1>GestorA2 - Gestión de Tareas</h1>
+    </header>
+
+    <nav id="sidebar" class="sidebar">
+      <button id="close-menu" class="close-menu-btn" aria-label="Cerrar menú">
+        ✕
+      </button>
+      <ul class="menu">
+        <li><a href="#" id="menu-create-task">Nueva Tarea</a></li>
+        <li><a href="#" id="menu-change-status">Cambiar Estado</a></li>
+        <li><a href="#" id="menu-config">Configuración</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="task-list"></section>
+      <button
+        id="add-task"
+        class="floating-btn"
+        aria-label="Agregar nueva tarea"
+      >
+        +
+      </button>
+      <dialog id="task-dialog">
+        <form id="task-form">
+          <h2 id="task-dialog-title">Nueva Tarea</h2>
+          <label for="task-title">Título:</label>
+          <input type="text" id="task-title" name="task-title" required />
+
+          <label for="task-detail">Detalle:</label>
+          <textarea id="task-detail" name="task-detail" required></textarea>
+
+          <label for="task-status">Estado:</label>
+          <select id="task-status" name="task-status">
+            <option value="pendiente">Pendiente</option>
+            <option value="en progreso">En Progreso</option>
+            <option value="completada">Completada</option>
+          </select>
+
+          <menu>
+            <button id="save-task" type="submit">Guardar</button>
+            <button id="cancel-task" type="button">Cancelar</button>
+          </menu>
+        </form>
+      </dialog>
+
+      <dialog id="change-status-dialog">
+        <form id="change-status-form">
+          <h2>Cambiar Estado de Tarea</h2>
+          <label for="task-select">Seleccione una tarea:</label>
+          <select id="task-select" name="task-select" required></select>
+
+          <label for="new-status">Nuevo Estado:</label>
+          <select id="new-status" name="new-status">
+            <option value="pendiente">Pendiente</option>
+            <option value="en progreso">En Progreso</option>
+            <option value="completada">Completada</option>
+          </select>
+
+          <menu>
+            <button id="save-status" type="submit">Guardar</button>
+            <button id="cancel-status" type="button">Cancelar</button>
+          </menu>
+        </form>
+      </dialog>
+
+      <dialog id="config-dialog">
+        <form id="config-form">
+          <h2>Configuración</h2>
+          <label for="voice-select">Voz:</label>
+          <select id="voice-select" name="voice-select"></select>
+
+          <label for="speed-range">Velocidad de Reproducción:</label>
+          <input
+            type="range"
+            id="speed-range"
+            name="speed-range"
+            min="0.5"
+            max="2"
+            step="0.1"
+            value="1"
+          />
+
+          <menu>
+            <button id="save-config" type="submit">Guardar</button>
+            <button id="cancel-config" type="button">Cancelar</button>
+          </menu>
+        </form>
+      </dialog>
+    </main>
+    <footer>
+      <p>GestorA2 - Aplicación de Gestión de Tareas &copy; 2024</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/dialog-polyfill@0.5.6/dialog-polyfill.min.js"></script>
+    <script type="module" src="./function/main.js"></script>
+    <script type="module" src="./function/config.js"></script>
+  </body>
+</html>
