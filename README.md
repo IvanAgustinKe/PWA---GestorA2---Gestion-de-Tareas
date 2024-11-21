@@ -1,5 +1,5 @@
 # PWA-GestorA2
-Materia: Aplicaciones Progresivas
+- Materia: Aplicaciones Progresivas
 
 ## Objetivos:
 
