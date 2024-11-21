@@ -19,6 +19,6 @@ Materia: Aplicaciones Progresivas
   Si quieren resolver todo en un HTML, pueden usar el tag `<dialog>` para las ventanas:
   1. Configuración
   2. Nueva tarea
-  3. Modificar tarea (esta parte es opcional, si llegan a hacerla, genial) ✅
+  3. Modificar tarea (esta parte es opcional) ✅
 
 - **Configuración de Speech Synthesis guardada en LocalStorage (guardar y recuperar desde LocalStorage)** ✅
